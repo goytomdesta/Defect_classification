@@ -5,8 +5,8 @@ import random
 import matplotlib.pyplot as plt
 
 #Path to the dataset
-TRAIN_IMG_FOLDER_PATH = "C:/Users/djmen/Desktop/m_vis/data_X_SDD/train_set"
-VALID_IMG_FOLDER_PATH = "C:/Users/djmen/Desktop/m_vis/data_X_SDD/test_set"
+TRAIN_IMG_FOLDER_PATH = "C:\Users\goyto\PycharmProjects\Defect_Classification\defe iden segmen\data_X_SDD"
+VALID_IMG_FOLDER_PATH = "C:\Users\goyto\PycharmProjects\Defect_Classification\defe iden segmen\data_X_SDD"
 
 train_augs = T.Compose([
     T.Resize((224,224)),
