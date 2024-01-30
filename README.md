@@ -9,3 +9,16 @@ Seven-Class Classification: Capable of identifying seven distinct classes of sur
 Confusion Matrix Results: Evaluation of the model's performance is depicted through a detailed confusion matrix, highlighting its accuracy across different defect types.
 
 ## Results
+The performance of the classification network on the training set using confusion matrix:
+<p align="center">
+<img src="Train_none_normalized_cm.png" width="70%" height="30%">
+</p>
+
+**Fig. 1:** Results on the training set.
+
+The performance of the classification network on the test set using confusion matrix:
+<p align="center">
+<img src="Test_none_normalized_cm.png" width="70%" height="40%">
+</p>
+
+**Fig. 2:** Results on the test set.
