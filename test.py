@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 DEVICE = 'cuda'
 
-PATH = "C:/Users/djmen/Desktop/m_vis/defect_detection_ResNet18.pth"
+PATH = "C:/Users/goytom/Desktop/m_vis/defect_detection_ResNet18.pth"
 cl_model.load_state_dict(torch.load(PATH))
 
 cl_model.eval()
